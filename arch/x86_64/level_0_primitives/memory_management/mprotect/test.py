@@ -44,7 +44,19 @@ class MprotectTest:
             if result.stderr:
                 print(f"⚠️  Stderr: {result.stderr}")
             
-            # TODO: Aggiungere verifiche specifiche per mprotect
+            # Verifiche specifiche per mprotect
+            success_indicators = [
+                "Test 1: Successfully changed protection to read-only ✓",
+                "Test 2: Correctly rejected NULL pointer ✓", 
+                "Test 3: Correctly rejected zero length ✓",
+                "=== All mprotect tests passed! ==="
+            ]
+            
+            for indicator in success_indicators:
+                if indicator not in result.stdout:
+                    print(f"❌ Test fallito: manca '{indicator}'")
+                    return False
+                    
             return result.returncode == 0
         except subprocess.TimeoutExpired:
             print(f"⏱️  Timeout durante test di {self.module_name}")

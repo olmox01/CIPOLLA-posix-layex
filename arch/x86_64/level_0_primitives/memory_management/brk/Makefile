@@ -19,7 +19,7 @@ all: $(TARGET)
 
 # Build main module
 $(TARGET): $(OBJECTS)
-	$(CXX) $(CXXFLAGS) -DSTANDALONE_BUILD -o $@ $^ $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) -DSTANDALONE_BUILD -fno-builtin -o $@ $^ $(LDFLAGS)
 
 # Build test version
 test: $(TEST_TARGET)
@@ -29,7 +29,7 @@ $(TEST_TARGET): $(OBJECTS)
 
 # Object files
 %.o: %.cpp $(MODULE).h
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+	$(CXX) $(CXXFLAGS) -DSTANDALONE_BUILD -fno-builtin -c $< -o $@
 
 # Clean
 clean:

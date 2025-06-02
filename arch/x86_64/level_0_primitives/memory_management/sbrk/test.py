@@ -44,7 +44,19 @@ class SbrkTest:
             if result.stderr:
                 print(f"⚠️  Stderr: {result.stderr}")
             
-            # TODO: Aggiungere verifiche specifiche per sbrk
+            # Verifiche specifiche per sbrk
+            success_indicators = [
+                "✅ Current break queried",
+                "✅ Positive increment successful", 
+                "✅ New break verified",
+                "✅ All sbrk tests passed!"
+            ]
+            
+            for indicator in success_indicators:
+                if indicator not in result.stdout:
+                    print(f"❌ Test fallito: manca '{indicator}'")
+                    return False
+                    
             return result.returncode == 0
         except subprocess.TimeoutExpired:
             print(f"⏱️  Timeout durante test di {self.module_name}")

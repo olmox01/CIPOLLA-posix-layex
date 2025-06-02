@@ -44,7 +44,19 @@ class BrkTest:
             if result.stderr:
                 print(f"⚠️  Stderr: {result.stderr}")
             
-            # TODO: Aggiungere verifiche specifiche per brk
+            # Verifiche specifiche per brk
+            success_indicators = [
+                "✅ Initial break queried",
+                "✅ Heap expanded", 
+                "✅ Break verification successful",
+                "✅ All brk tests passed!"
+            ]
+            
+            for indicator in success_indicators:
+                if indicator not in result.stdout:
+                    print(f"❌ Test fallito: manca '{indicator}'")
+                    return False
+                    
             return result.returncode == 0
         except subprocess.TimeoutExpired:
             print(f"⏱️  Timeout durante test di {self.module_name}")

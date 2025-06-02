@@ -1,0 +1,176 @@
+[0;34m[INFO][0m ==========================================================
+[0;34m[INFO][0m POSIX Memory Management Suite - Automated Test Runner
+[0;34m[INFO][0m ==========================================================
+[0;34m[INFO][0m Starting comprehensive test suite...
+[0;34m[INFO][0m Log file: test_results_20250602_163925.log
+[0;34m[INFO][0m === Phase 1: Environment Verification ===
+[0;32m[SUCCESS][0m Memory manager executable exists: memory_manager
+[0;32m[SUCCESS][0m Main Makefile exists: Makefile
+[0;32m[SUCCESS][0m Module executable: brk exists: brk/brk
+[0;32m[SUCCESS][0m Module test script: brk exists: brk/test.py
+[0;32m[SUCCESS][0m Module executable: sbrk exists: sbrk/sbrk
+[0;32m[SUCCESS][0m Module test script: sbrk exists: sbrk/test.py
+[0;32m[SUCCESS][0m Module executable: mmap exists: mmap/mmap
+[0;32m[SUCCESS][0m Module test script: mmap exists: mmap/test.py
+[0;32m[SUCCESS][0m Module executable: munmap exists: munmap/munmap
+[0;32m[SUCCESS][0m Module test script: munmap exists: munmap/test.py
+[0;32m[SUCCESS][0m Module executable: mprotect exists: mprotect/mprotect
+[0;32m[SUCCESS][0m Module test script: mprotect exists: mprotect/test.py
+[0;32m[SUCCESS][0m Module executable: msync exists: msync/msync
+[0;32m[SUCCESS][0m Module test script: msync exists: msync/test.py
+[0;34m[INFO][0m === Phase 2: Integration Tests ===
+[0;34m[INFO][0m Running test: Memory Manager Integration
+[0;31m[ERROR][0m Memory Manager Integration failed - success indicator not found
+Output: =====================================
+MEMORY MANAGER INITIALIZATION
+=====================================
+Initializing POSIX Memory Management Suite...
+Architecture: x86_64
+
+Available modules:
+  - brk: Program break control
+  - sbrk: Increment program break
+  - mmap: Memory mapping
+  - munmap: Memory unmapping
+  - mprotect: Memory protection
+  - msync: Memory synchronization
+
+Memory Manager initialized successfully!
+=====================================
+MEMORY MANAGER INFORMATION
+=====================================
+POSIX Memory Management Suite
+Team Level 0 - Complete Implementation
+Architecture: x86_64
+
+Implemented System Calls:
+  brk (x86_64) - POSIX brk syscall - Program break control for heap management
+  sbrk (x86_64) - POSIX sbrk syscall - Increment program break for heap management
+  mmap (x86_64) - POSIX mmap syscall - Memory mapping for files and anonymous memory
+  munmap (x86_64) - POSIX munmap syscall - remove memory mapping
+  mprotect (x86_64) - POSIX mprotect syscall - change memory protection
+  msync (x86_64) - POSIX msync syscall - synchronize memory with physical storage
+
+Features:
+  • Full POSIX compliance
+  • x86_64 native syscalls
+  • Comprehensive error handling
+  • Complete test coverage
+  • Production-ready implementation
+=====================================
+MEMORY MANAGER VALIDATION
+=====================================
+Validating all memory management modules...
+Validating brk... ✅ OK
+Validating sbrk... ✅ OK
+Validating mmap... ✅ OK
+Validating munmap... ✅ OK
+Validating mprotect... ✅ OK
+Validating msync... ✅ OK
+
+✅ All modules validated successfully!
+=====================================
+MEMORY MANAGER - COMPREHENSIVE TEST SUITE
+=====================================
+
+--- Testing Module: brk ---
+Description: POSIX brk syscall - Program break control for heap management
+
+Testing brk (64-bit)...
+✅ Initial break queried
+✅ Heap expanded
+✅ Break verification successful
+✅ Further expansion successful
+✅ NULL parameter correctly rejected
+✅ All brk tests passed!
+✅ Module test PASSED
+
+--- Testing Module: sbrk ---
+Description: POSIX sbrk syscall - Increment program break for heap management
+
+Testing sbrk (64-bit)...
+✅ Current break queried
+✅ Positive increment successful
+✅ New break verified
+✅ Second increment successful
+✅ All sbrk tests passed!
+✅ Module test PASSED
+
+--- Testing Module: mmap ---
+Description: POSIX mmap syscall - Memory mapping for files and anonymous memory
+
+Testing mmap (64-bit)...
+✅ Anonymous mapping successful
+✅ Write to mapped memory successful
+✅ Unmap successful
+✅ File mapping successful
+✅ Read from file mapping successful
+✅ File unmap successful
+✅ Invalid parameter correctly rejected
+✅ All mmap tests passed!
+✅ Module test PASSED
+
+--- Testing Module: munmap ---
+Description: POSIX munmap syscall - remove memory mapping
+
+=== Testing munmap implementation ===
+Test 1: Map memory and then unmap it
+Test 1: Memory mapped successfully
+Test 1: Successfully unmapped memory ✓
+Test 2: Try to unmap NULL pointer (should fail)
+Test 2: Correctly rejected NULL pointer ✓
+Test 3: Try to unmap with length 0 (should fail)
+Test 3: Correctly rejected zero length ✓
+Test 4: Try to unmap non-aligned address (should fail)
+Test 4: Correctly rejected non-aligned address ✓
+=== All munmap tests passed! ===
+✅ Module test PASSED
+
+--- Testing Module: mprotect ---
+Description: POSIX mprotect syscall - change memory protection
+
+=== Testing mprotect implementation ===
+Test 1: Map memory and change protection to read-only
+Test 1: Memory mapped with RW permissions
+Test 1: Successfully wrote to memory
+Test 1: Successfully changed protection to read-only ✓
+Test 1: Successfully read from protected memory ✓
+Test 2: Try mprotect with NULL pointer (should fail)
+Test 2: Correctly rejected NULL pointer ✓
+Test 3: Try mprotect with length 0 (should fail)
+Test 3: Correctly rejected zero length ✓
+Test 4: Try mprotect with invalid flags (should fail)
+Test 4: Correctly rejected invalid flags ✓
+Test 5: Try mprotect with non-aligned address (should fail)
+Test 5: Correctly rejected non-aligned address ✓
+=== All mprotect tests passed! ===
+✅ Module test PASSED
+
+--- Testing Module: msync ---
+Description: POSIX msync syscall - synchronize memory with physical storage
+
+=== Testing msync implementation ===
+Test 1: Test msync with file-backed mapping
+Test 1: File mapped successfully
+Test 1: MS_SYNC successful ✓
+Test 1: MS_ASYNC successful ✓
+Test 2: Try msync with NULL pointer (should fail)
+Test 2: Correctly rejected NULL pointer ✓
+Test 3: Try msync with length 0 (should fail)
+Test 3: Correctly rejected zero length ✓
+Test 4: Try msync with both MS_ASYNC and MS_SYNC (should fail)
+Test 4: Correctly rejected conflicting flags ✓
+Test 5: Try msync with no sync flags (should fail)
+Test 5: Correctly rejected missing sync flags ✓
+Test 6: Try msync with non-aligned address (should fail)
+Test 6: Correctly rejected non-aligned address ✓
+=== All msync tests passed! ===
+✅ Module test PASSED
+=====================================
+TEST SUMMARY
+=====================================
+Total modules tested: 6
+Passed: 6
+Failed: 0
+
+🎉 ALL TESTS PASSED! Memory management suite is fully functional.

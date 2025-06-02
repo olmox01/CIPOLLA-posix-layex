@@ -1,0 +1,9 @@
+[0;34m[INFO][0m ==========================================================
+[0;34m[INFO][0m POSIX Memory Management Suite - Automated Test Runner
+[0;34m[INFO][0m ==========================================================
+[0;34m[INFO][0m Starting comprehensive test suite...
+[0;34m[INFO][0m Log file: test_results_20250602_164344.log
+[0;34m[INFO][0m === Phase 1: Environment Verification ===
+[0;32m[SUCCESS][0m Memory manager executable exists: memory_manager
+[0;32m[SUCCESS][0m Main Makefile exists: Makefile
+[0;31m[ERROR][0m Module executable: brk missing: brk/brk

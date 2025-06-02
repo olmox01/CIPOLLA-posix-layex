@@ -44,7 +44,19 @@ class MmapTest:
             if result.stderr:
                 print(f"⚠️  Stderr: {result.stderr}")
             
-            # TODO: Aggiungere verifiche specifiche per mmap
+            # Verifiche specifiche per mmap
+            success_indicators = [
+                "✅ Anonymous mapping successful",
+                "✅ Write to mapped memory successful", 
+                "✅ Unmap successful",
+                "✅ All mmap tests passed!"
+            ]
+            
+            for indicator in success_indicators:
+                if indicator not in result.stdout:
+                    print(f"❌ Test fallito: manca '{indicator}'")
+                    return False
+                    
             return result.returncode == 0
         except subprocess.TimeoutExpired:
             print(f"⏱️  Timeout durante test di {self.module_name}")
