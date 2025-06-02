@@ -1,0 +1,1945 @@
+{
+  "timestamp": "lun 2 giu 2025, 14:34:05, CEST",
+  "architectures": {
+    "x86_64": {
+      "level_3_complex": {
+        "ipc_sysv": [
+          {
+            "name": "msgget",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/msgget",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "semget",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/semget",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "msgrcv",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/msgrcv",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "shmget",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/shmget",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "msgsnd",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/msgsnd",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "shmdt",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/shmdt",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "shmctl",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/shmctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "semop",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/semop",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "msgctl",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/msgctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "shmat",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/shmat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "semctl",
+            "path": "arch/x86_64/level_3_complex/ipc_sysv/semctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "session_control": [
+          {
+            "name": "getpgrp",
+            "path": "arch/x86_64/level_3_complex/session_control/getpgrp",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "setpgid",
+            "path": "arch/x86_64/level_3_complex/session_control/setpgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getpgid",
+            "path": "arch/x86_64/level_3_complex/session_control/getpgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "setsid",
+            "path": "arch/x86_64/level_3_complex/session_control/setsid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getsid",
+            "path": "arch/x86_64/level_3_complex/session_control/getsid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "networking": [
+          {
+            "name": "send",
+            "path": "arch/x86_64/level_3_complex/networking/send",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "bind",
+            "path": "arch/x86_64/level_3_complex/networking/bind",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "shutdown",
+            "path": "arch/x86_64/level_3_complex/networking/shutdown",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "recvfrom",
+            "path": "arch/x86_64/level_3_complex/networking/recvfrom",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "accept",
+            "path": "arch/x86_64/level_3_complex/networking/accept",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "socket",
+            "path": "arch/x86_64/level_3_complex/networking/socket",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "connect",
+            "path": "arch/x86_64/level_3_complex/networking/connect",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "sendto",
+            "path": "arch/x86_64/level_3_complex/networking/sendto",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "listen",
+            "path": "arch/x86_64/level_3_complex/networking/listen",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "recv",
+            "path": "arch/x86_64/level_3_complex/networking/recv",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_2_intermediate": {
+        "advanced_io": [
+          {
+            "name": "fcntl",
+            "path": "arch/x86_64/level_2_intermediate/advanced_io/fcntl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "select",
+            "path": "arch/x86_64/level_2_intermediate/advanced_io/select",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "ioctl",
+            "path": "arch/x86_64/level_2_intermediate/advanced_io/ioctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "dup2",
+            "path": "arch/x86_64/level_2_intermediate/advanced_io/dup2",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "pipe",
+            "path": "arch/x86_64/level_2_intermediate/advanced_io/pipe",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "poll",
+            "path": "arch/x86_64/level_2_intermediate/advanced_io/poll",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "dup",
+            "path": "arch/x86_64/level_2_intermediate/advanced_io/dup",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "time_ops": [
+          {
+            "name": "nanosleep",
+            "path": "arch/x86_64/level_2_intermediate/time_ops/nanosleep",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "gettimeofday",
+            "path": "arch/x86_64/level_2_intermediate/time_ops/gettimeofday",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "time",
+            "path": "arch/x86_64/level_2_intermediate/time_ops/time",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "sleep",
+            "path": "arch/x86_64/level_2_intermediate/time_ops/sleep",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "clock",
+            "path": "arch/x86_64/level_2_intermediate/time_ops/clock",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "directory_ops": [
+          {
+            "name": "rewinddir",
+            "path": "arch/x86_64/level_2_intermediate/directory_ops/rewinddir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "readdir",
+            "path": "arch/x86_64/level_2_intermediate/directory_ops/readdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "opendir",
+            "path": "arch/x86_64/level_2_intermediate/directory_ops/opendir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "telldir",
+            "path": "arch/x86_64/level_2_intermediate/directory_ops/telldir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "closedir",
+            "path": "arch/x86_64/level_2_intermediate/directory_ops/closedir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "seekdir",
+            "path": "arch/x86_64/level_2_intermediate/directory_ops/seekdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_0_primitives": {
+        "process_identity": [
+          {
+            "name": "getegid",
+            "path": "arch/x86_64/level_0_primitives/process_identity/getegid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getpid",
+            "path": "arch/x86_64/level_0_primitives/process_identity/getpid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getgid",
+            "path": "arch/x86_64/level_0_primitives/process_identity/getgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getppid",
+            "path": "arch/x86_64/level_0_primitives/process_identity/getppid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getuid",
+            "path": "arch/x86_64/level_0_primitives/process_identity/getuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "geteuid",
+            "path": "arch/x86_64/level_0_primitives/process_identity/geteuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "basic_io": [
+          {
+            "name": "close",
+            "path": "arch/x86_64/level_0_primitives/basic_io/close",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "read",
+            "path": "arch/x86_64/level_0_primitives/basic_io/read",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "lseek",
+            "path": "arch/x86_64/level_0_primitives/basic_io/lseek",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "write",
+            "path": "arch/x86_64/level_0_primitives/basic_io/write",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "open",
+            "path": "arch/x86_64/level_0_primitives/basic_io/open",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "memory_management": [
+          {
+            "name": "msync",
+            "path": "arch/x86_64/level_0_primitives/memory_management/msync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "mprotect",
+            "path": "arch/x86_64/level_0_primitives/memory_management/mprotect",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "munmap",
+            "path": "arch/x86_64/level_0_primitives/memory_management/munmap",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "brk",
+            "path": "arch/x86_64/level_0_primitives/memory_management/brk",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "mmap",
+            "path": "arch/x86_64/level_0_primitives/memory_management/mmap",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "sbrk",
+            "path": "arch/x86_64/level_0_primitives/memory_management/sbrk",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_1_fundamental": {
+        "signal_handling": [
+          {
+            "name": "alarm",
+            "path": "arch/x86_64/level_1_fundamental/signal_handling/alarm",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "sigaction",
+            "path": "arch/x86_64/level_1_fundamental/signal_handling/sigaction",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "pause",
+            "path": "arch/x86_64/level_1_fundamental/signal_handling/pause",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "signal",
+            "path": "arch/x86_64/level_1_fundamental/signal_handling/signal",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "process_control": [
+          {
+            "name": "fork",
+            "path": "arch/x86_64/level_1_fundamental/process_control/fork",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "exit",
+            "path": "arch/x86_64/level_1_fundamental/process_control/exit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "execve",
+            "path": "arch/x86_64/level_1_fundamental/process_control/execve",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "waitpid",
+            "path": "arch/x86_64/level_1_fundamental/process_control/waitpid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "wait",
+            "path": "arch/x86_64/level_1_fundamental/process_control/wait",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "kill",
+            "path": "arch/x86_64/level_1_fundamental/process_control/kill",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "filesystem_ops": [
+          {
+            "name": "fstat",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/fstat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "unlink",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/unlink",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "mkdir",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/mkdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "link",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/link",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "chown",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/chown",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "lstat",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/lstat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "access",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/access",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "chmod",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/chmod",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "stat",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/stat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "rmdir",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/rmdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "rename",
+            "path": "arch/x86_64/level_1_fundamental/filesystem_ops/rename",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_5_specialized": {
+        "async_io": [
+          {
+            "name": "aio_read",
+            "path": "arch/x86_64/level_5_specialized/async_io/aio_read",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "aio_write",
+            "path": "arch/x86_64/level_5_specialized/async_io/aio_write",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "aio_error",
+            "path": "arch/x86_64/level_5_specialized/async_io/aio_error",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "aio_suspend",
+            "path": "arch/x86_64/level_5_specialized/async_io/aio_suspend",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "aio_cancel",
+            "path": "arch/x86_64/level_5_specialized/async_io/aio_cancel",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "aio_return",
+            "path": "arch/x86_64/level_5_specialized/async_io/aio_return",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "configuration": [
+          {
+            "name": "pathconf",
+            "path": "arch/x86_64/level_5_specialized/configuration/pathconf",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "fpathconf",
+            "path": "arch/x86_64/level_5_specialized/configuration/fpathconf",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "sysconf",
+            "path": "arch/x86_64/level_5_specialized/configuration/sysconf",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "confstr",
+            "path": "arch/x86_64/level_5_specialized/configuration/confstr",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "posix_threads": [
+          {
+            "name": "pthread_exit",
+            "path": "arch/x86_64/level_5_specialized/posix_threads/pthread_exit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "pthread_mutex_lock",
+            "path": "arch/x86_64/level_5_specialized/posix_threads/pthread_mutex_lock",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "pthread_join",
+            "path": "arch/x86_64/level_5_specialized/posix_threads/pthread_join",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "pthread_mutex_init",
+            "path": "arch/x86_64/level_5_specialized/posix_threads/pthread_mutex_init",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "pthread_detach",
+            "path": "arch/x86_64/level_5_specialized/posix_threads/pthread_detach",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "pthread_create",
+            "path": "arch/x86_64/level_5_specialized/posix_threads/pthread_create",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_4_highlevel": {
+        "security": [
+          {
+            "name": "setegid",
+            "path": "arch/x86_64/level_4_highlevel/security/setegid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "setuid",
+            "path": "arch/x86_64/level_4_highlevel/security/setuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "setgroups",
+            "path": "arch/x86_64/level_4_highlevel/security/setgroups",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "seteuid",
+            "path": "arch/x86_64/level_4_highlevel/security/seteuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "setgid",
+            "path": "arch/x86_64/level_4_highlevel/security/setgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getgroups",
+            "path": "arch/x86_64/level_4_highlevel/security/getgroups",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "filesystem_advanced": [
+          {
+            "name": "ftruncate",
+            "path": "arch/x86_64/level_4_highlevel/filesystem_advanced/ftruncate",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "mount",
+            "path": "arch/x86_64/level_4_highlevel/filesystem_advanced/mount",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "fdatasync",
+            "path": "arch/x86_64/level_4_highlevel/filesystem_advanced/fdatasync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "umount",
+            "path": "arch/x86_64/level_4_highlevel/filesystem_advanced/umount",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "fsync",
+            "path": "arch/x86_64/level_4_highlevel/filesystem_advanced/fsync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "truncate",
+            "path": "arch/x86_64/level_4_highlevel/filesystem_advanced/truncate",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "sync",
+            "path": "arch/x86_64/level_4_highlevel/filesystem_advanced/sync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "resource_control": [
+          {
+            "name": "setrlimit",
+            "path": "arch/x86_64/level_4_highlevel/resource_control/setrlimit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "times",
+            "path": "arch/x86_64/level_4_highlevel/resource_control/times",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getrusage",
+            "path": "arch/x86_64/level_4_highlevel/resource_control/getrusage",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "getrlimit",
+            "path": "arch/x86_64/level_4_highlevel/resource_control/getrlimit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      }
+    },
+    "x86_32": {
+      "level_3_complex": {
+        "ipc_sysv": [
+          {
+            "name": "x86_msgsnd",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_msgsnd",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_msgrcv",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_msgrcv",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_semctl",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_semctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_msgget",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_msgget",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_msgctl",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_msgctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_semop",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_semop",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_shmat",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_shmat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_semget",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_semget",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_shmget",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_shmget",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_shmdt",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_shmdt",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_shmctl",
+            "path": "arch/x86_32/level_3_complex/ipc_sysv/x86_shmctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "session_control": [
+          {
+            "name": "x86_getpgid",
+            "path": "arch/x86_32/level_3_complex/session_control/x86_getpgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getpgrp",
+            "path": "arch/x86_32/level_3_complex/session_control/x86_getpgrp",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getsid",
+            "path": "arch/x86_32/level_3_complex/session_control/x86_getsid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_setpgid",
+            "path": "arch/x86_32/level_3_complex/session_control/x86_setpgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_setsid",
+            "path": "arch/x86_32/level_3_complex/session_control/x86_setsid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "networking": [
+          {
+            "name": "x86_recvfrom",
+            "path": "arch/x86_32/level_3_complex/networking/x86_recvfrom",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_connect",
+            "path": "arch/x86_32/level_3_complex/networking/x86_connect",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_accept",
+            "path": "arch/x86_32/level_3_complex/networking/x86_accept",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_socket",
+            "path": "arch/x86_32/level_3_complex/networking/x86_socket",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_send",
+            "path": "arch/x86_32/level_3_complex/networking/x86_send",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_bind",
+            "path": "arch/x86_32/level_3_complex/networking/x86_bind",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_listen",
+            "path": "arch/x86_32/level_3_complex/networking/x86_listen",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_recv",
+            "path": "arch/x86_32/level_3_complex/networking/x86_recv",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_sendto",
+            "path": "arch/x86_32/level_3_complex/networking/x86_sendto",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_shutdown",
+            "path": "arch/x86_32/level_3_complex/networking/x86_shutdown",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_2_intermediate": {
+        "advanced_io": [
+          {
+            "name": "x86_poll",
+            "path": "arch/x86_32/level_2_intermediate/advanced_io/x86_poll",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_dup2",
+            "path": "arch/x86_32/level_2_intermediate/advanced_io/x86_dup2",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_dup",
+            "path": "arch/x86_32/level_2_intermediate/advanced_io/x86_dup",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_ioctl",
+            "path": "arch/x86_32/level_2_intermediate/advanced_io/x86_ioctl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_fcntl",
+            "path": "arch/x86_32/level_2_intermediate/advanced_io/x86_fcntl",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_select",
+            "path": "arch/x86_32/level_2_intermediate/advanced_io/x86_select",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_pipe",
+            "path": "arch/x86_32/level_2_intermediate/advanced_io/x86_pipe",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "time_ops": [
+          {
+            "name": "x86_clock",
+            "path": "arch/x86_32/level_2_intermediate/time_ops/x86_clock",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_gettimeofday",
+            "path": "arch/x86_32/level_2_intermediate/time_ops/x86_gettimeofday",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_nanosleep",
+            "path": "arch/x86_32/level_2_intermediate/time_ops/x86_nanosleep",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_sleep",
+            "path": "arch/x86_32/level_2_intermediate/time_ops/x86_sleep",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_time",
+            "path": "arch/x86_32/level_2_intermediate/time_ops/x86_time",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "directory_ops": [
+          {
+            "name": "x86_readdir",
+            "path": "arch/x86_32/level_2_intermediate/directory_ops/x86_readdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_opendir",
+            "path": "arch/x86_32/level_2_intermediate/directory_ops/x86_opendir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_telldir",
+            "path": "arch/x86_32/level_2_intermediate/directory_ops/x86_telldir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_closedir",
+            "path": "arch/x86_32/level_2_intermediate/directory_ops/x86_closedir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_seekdir",
+            "path": "arch/x86_32/level_2_intermediate/directory_ops/x86_seekdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_rewinddir",
+            "path": "arch/x86_32/level_2_intermediate/directory_ops/x86_rewinddir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_0_primitives": {
+        "process_identity": [
+          {
+            "name": "x86_geteuid",
+            "path": "arch/x86_32/level_0_primitives/process_identity/x86_geteuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getegid",
+            "path": "arch/x86_32/level_0_primitives/process_identity/x86_getegid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getppid",
+            "path": "arch/x86_32/level_0_primitives/process_identity/x86_getppid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getuid",
+            "path": "arch/x86_32/level_0_primitives/process_identity/x86_getuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getgid",
+            "path": "arch/x86_32/level_0_primitives/process_identity/x86_getgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getpid",
+            "path": "arch/x86_32/level_0_primitives/process_identity/x86_getpid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "basic_io": [
+          {
+            "name": "x86_close",
+            "path": "arch/x86_32/level_0_primitives/basic_io/x86_close",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_read",
+            "path": "arch/x86_32/level_0_primitives/basic_io/x86_read",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_open",
+            "path": "arch/x86_32/level_0_primitives/basic_io/x86_open",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_lseek",
+            "path": "arch/x86_32/level_0_primitives/basic_io/x86_lseek",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_write",
+            "path": "arch/x86_32/level_0_primitives/basic_io/x86_write",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "memory_management": [
+          {
+            "name": "x86_mprotect",
+            "path": "arch/x86_32/level_0_primitives/memory_management/x86_mprotect",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_sbrk",
+            "path": "arch/x86_32/level_0_primitives/memory_management/x86_sbrk",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_brk",
+            "path": "arch/x86_32/level_0_primitives/memory_management/x86_brk",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_mmap",
+            "path": "arch/x86_32/level_0_primitives/memory_management/x86_mmap",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_msync",
+            "path": "arch/x86_32/level_0_primitives/memory_management/x86_msync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_munmap",
+            "path": "arch/x86_32/level_0_primitives/memory_management/x86_munmap",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_1_fundamental": {
+        "signal_handling": [
+          {
+            "name": "x86_signal",
+            "path": "arch/x86_32/level_1_fundamental/signal_handling/x86_signal",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_alarm",
+            "path": "arch/x86_32/level_1_fundamental/signal_handling/x86_alarm",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_pause",
+            "path": "arch/x86_32/level_1_fundamental/signal_handling/x86_pause",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_sigaction",
+            "path": "arch/x86_32/level_1_fundamental/signal_handling/x86_sigaction",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "process_control": [
+          {
+            "name": "x86_kill",
+            "path": "arch/x86_32/level_1_fundamental/process_control/x86_kill",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_fork",
+            "path": "arch/x86_32/level_1_fundamental/process_control/x86_fork",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_waitpid",
+            "path": "arch/x86_32/level_1_fundamental/process_control/x86_waitpid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_exit",
+            "path": "arch/x86_32/level_1_fundamental/process_control/x86_exit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_execve",
+            "path": "arch/x86_32/level_1_fundamental/process_control/x86_execve",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_wait",
+            "path": "arch/x86_32/level_1_fundamental/process_control/x86_wait",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "filesystem_ops": [
+          {
+            "name": "x86_lstat",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_lstat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_rename",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_rename",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_stat",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_stat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_mkdir",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_mkdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_chmod",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_chmod",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_rmdir",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_rmdir",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_access",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_access",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_fstat",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_fstat",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_link",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_link",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_chown",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_chown",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_unlink",
+            "path": "arch/x86_32/level_1_fundamental/filesystem_ops/x86_unlink",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_5_specialized": {
+        "async_io": [
+          {
+            "name": "x86_aio_error",
+            "path": "arch/x86_32/level_5_specialized/async_io/x86_aio_error",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_aio_suspend",
+            "path": "arch/x86_32/level_5_specialized/async_io/x86_aio_suspend",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_aio_write",
+            "path": "arch/x86_32/level_5_specialized/async_io/x86_aio_write",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_aio_read",
+            "path": "arch/x86_32/level_5_specialized/async_io/x86_aio_read",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_aio_cancel",
+            "path": "arch/x86_32/level_5_specialized/async_io/x86_aio_cancel",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_aio_return",
+            "path": "arch/x86_32/level_5_specialized/async_io/x86_aio_return",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "configuration": [
+          {
+            "name": "x86_pathconf",
+            "path": "arch/x86_32/level_5_specialized/configuration/x86_pathconf",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_fpathconf",
+            "path": "arch/x86_32/level_5_specialized/configuration/x86_fpathconf",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_sysconf",
+            "path": "arch/x86_32/level_5_specialized/configuration/x86_sysconf",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_confstr",
+            "path": "arch/x86_32/level_5_specialized/configuration/x86_confstr",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "posix_threads": [
+          {
+            "name": "x86_pthread_detach",
+            "path": "arch/x86_32/level_5_specialized/posix_threads/x86_pthread_detach",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_pthread_mutex_init",
+            "path": "arch/x86_32/level_5_specialized/posix_threads/x86_pthread_mutex_init",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_pthread_mutex_lock",
+            "path": "arch/x86_32/level_5_specialized/posix_threads/x86_pthread_mutex_lock",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_pthread_exit",
+            "path": "arch/x86_32/level_5_specialized/posix_threads/x86_pthread_exit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_pthread_join",
+            "path": "arch/x86_32/level_5_specialized/posix_threads/x86_pthread_join",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_pthread_create",
+            "path": "arch/x86_32/level_5_specialized/posix_threads/x86_pthread_create",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      },
+      "level_4_highlevel": {
+        "security": [
+          {
+            "name": "x86_setegid",
+            "path": "arch/x86_32/level_4_highlevel/security/x86_setegid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_seteuid",
+            "path": "arch/x86_32/level_4_highlevel/security/x86_seteuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_setuid",
+            "path": "arch/x86_32/level_4_highlevel/security/x86_setuid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_setgid",
+            "path": "arch/x86_32/level_4_highlevel/security/x86_setgid",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getgroups",
+            "path": "arch/x86_32/level_4_highlevel/security/x86_getgroups",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_setgroups",
+            "path": "arch/x86_32/level_4_highlevel/security/x86_setgroups",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "filesystem_advanced": [
+          {
+            "name": "x86_mount",
+            "path": "arch/x86_32/level_4_highlevel/filesystem_advanced/x86_mount",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_fsync",
+            "path": "arch/x86_32/level_4_highlevel/filesystem_advanced/x86_fsync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_ftruncate",
+            "path": "arch/x86_32/level_4_highlevel/filesystem_advanced/x86_ftruncate",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_umount",
+            "path": "arch/x86_32/level_4_highlevel/filesystem_advanced/x86_umount",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_sync",
+            "path": "arch/x86_32/level_4_highlevel/filesystem_advanced/x86_sync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_truncate",
+            "path": "arch/x86_32/level_4_highlevel/filesystem_advanced/x86_truncate",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_fdatasync",
+            "path": "arch/x86_32/level_4_highlevel/filesystem_advanced/x86_fdatasync",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ],
+        "resource_control": [
+          {
+            "name": "x86_getrusage",
+            "path": "arch/x86_32/level_4_highlevel/resource_control/x86_getrusage",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_times",
+            "path": "arch/x86_32/level_4_highlevel/resource_control/x86_times",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_getrlimit",
+            "path": "arch/x86_32/level_4_highlevel/resource_control/x86_getrlimit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          },
+          {
+            "name": "x86_setrlimit",
+            "path": "arch/x86_32/level_4_highlevel/resource_control/x86_setrlimit",
+            "completeness": 0.6,
+            "lines_of_code": 14,
+            "complete": false,
+            "has_files": true
+          }
+        ]
+      }
+    }
+  }
+}

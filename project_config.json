@@ -1,0 +1,15 @@
+{
+  "project_name": "POSIX_Syscalls_Implementation",
+  "version": "1.0.0",
+  "architectures": [
+    "x86_64",
+    "x86_32"
+  ],
+  "default_arch": "x86_64",
+  "patch_directories": [],
+  "build_options": {
+    "debug": true,
+    "optimization": "O2",
+    "warnings": "all"
+  }
+}

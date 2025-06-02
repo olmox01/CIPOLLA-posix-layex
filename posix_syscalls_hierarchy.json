@@ -1,0 +1,126 @@
+{
+  "posix_syscalls_hierarchy": {
+    "level_0_primitives": {
+      "memory_management": {
+        "syscalls": ["brk", "sbrk", "mmap", "munmap", "mprotect", "msync"],
+        "dependencies": [],
+        "description": "Primitive di gestione memoria del kernel"
+      },
+      "process_identity": {
+        "syscalls": ["getpid", "getppid", "getuid", "geteuid", "getgid", "getegid"],
+        "dependencies": [],
+        "description": "Identificazione processo e utente base"
+      },
+      "basic_io": {
+        "syscalls": ["read", "write", "open", "close", "lseek"],
+        "dependencies": [],
+        "description": "I/O primitivo su file descriptor"
+      }
+    },
+    "level_1_fundamental": {
+      "filesystem_ops": {
+        "syscalls": ["stat", "fstat", "lstat", "access", "chmod", "chown", "link", "unlink", "rename", "mkdir", "rmdir"],
+        "dependencies": ["basic_io"],
+        "description": "Operazioni fondamentali su file system"
+      },
+      "process_control": {
+        "syscalls": ["fork", "execve", "execl", "execp", "wait", "waitpid", "exit", "kill"],
+        "dependencies": ["process_identity"],
+        "description": "Controllo ciclo vita processi"
+      },
+      "signal_handling": {
+        "syscalls": ["signal", "sigaction", "pause", "alarm", "sigpending", "sigprocmask"],
+        "dependencies": ["process_identity"],
+        "description": "Gestione segnali base"
+      }
+    },
+    "level_2_intermediate": {
+      "advanced_io": {
+        "syscalls": ["dup", "dup2", "pipe", "fcntl", "ioctl", "select", "poll"],
+        "dependencies": ["basic_io"],
+        "description": "I/O avanzato e multiplexing"
+      },
+      "directory_ops": {
+        "syscalls": ["opendir", "readdir", "closedir", "rewinddir", "seekdir", "telldir"],
+        "dependencies": ["filesystem_ops"],
+        "description": "Operazioni su directory"
+      },
+      "time_ops": {
+        "syscalls": ["time", "gettimeofday", "clock", "sleep", "nanosleep", "setitimer", "getitimer"],
+        "dependencies": [],
+        "description": "Gestione tempo e temporizzazione"
+      }
+    },
+    "level_3_complex": {
+      "ipc_sysv": {
+        "syscalls": ["msgget", "msgsnd", "msgrcv", "msgctl", "semget", "semop", "semctl", "shmget", "shmat", "shmdt", "shmctl"],
+        "dependencies": ["process_control", "memory_management"],
+        "description": "Inter-Process Communication System V"
+      },
+      "networking": {
+        "syscalls": ["socket", "bind", "listen", "accept", "connect", "send", "recv", "sendto", "recvfrom", "shutdown", "getsockopt", "setsockopt"],
+        "dependencies": ["advanced_io"],
+        "description": "Comunicazione di rete via socket"
+      },
+      "session_control": {
+        "syscalls": ["setsid", "getsid", "setpgid", "getpgid", "getpgrp"],
+        "dependencies": ["process_control"],
+        "description": "Controllo sessioni e gruppi processi"
+      }
+    },
+    "level_4_highlevel": {
+      "security": {
+        "syscalls": ["setuid", "setgid", "seteuid", "setegid", "getgroups", "setgroups"],
+        "dependencies": ["process_identity"],
+        "description": "Gestione sicurezza e privilegi"
+      },
+      "filesystem_advanced": {
+        "syscalls": ["mount", "umount", "sync", "fsync", "fdatasync", "truncate", "ftruncate"],
+        "dependencies": ["filesystem_ops"],
+        "description": "Operazioni avanzate file system"
+      },
+      "resource_control": {
+        "syscalls": ["getrlimit", "setrlimit", "getrusage", "times"],
+        "dependencies": ["process_control"],
+        "description": "Controllo e monitoraggio risorse"
+      }
+    },
+    "level_5_specialized": {
+      "configuration": {
+        "syscalls": ["pathconf", "fpathconf", "sysconf", "confstr"],
+        "dependencies": ["filesystem_ops"],
+        "description": "Configurazione sistema e limiti"
+      },
+      "async_io": {
+        "syscalls": ["aio_read", "aio_write", "aio_error", "aio_return", "aio_cancel", "aio_suspend"],
+        "dependencies": ["advanced_io"],
+        "description": "I/O asincrono"
+      },
+      "posix_threads": {
+        "syscalls": ["pthread_create", "pthread_join", "pthread_detach", "pthread_exit", "pthread_mutex_init", "pthread_mutex_lock", "pthread_mutex_unlock", "pthread_cond_init", "pthread_cond_wait", "pthread_cond_signal"],
+        "dependencies": ["process_control", "memory_management"],
+        "description": "Threading POSIX"
+      }
+    }
+  },
+  "dependency_graph": {
+    "memory_management": [],
+    "process_identity": [],
+    "basic_io": [],
+    "filesystem_ops": ["basic_io"],
+    "process_control": ["process_identity"],
+    "signal_handling": ["process_identity"],
+    "advanced_io": ["basic_io"],
+    "directory_ops": ["filesystem_ops", "basic_io"],
+    "time_ops": [],
+    "ipc_sysv": ["process_control", "memory_management"],
+    "networking": ["advanced_io"],
+    "session_control": ["process_control"],
+    "security": ["process_identity"],
+    "filesystem_advanced": ["filesystem_ops"],
+    "resource_control": ["process_control"],
+    "configuration": ["filesystem_ops"],
+    "async_io": ["advanced_io"],
+    "posix_threads": ["process_control", "memory_management"]
+  }
+}
