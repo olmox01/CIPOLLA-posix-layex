@@ -1,4 +1,4 @@
-# POSIX Syscalls Implementation Project
+# POSIX Syscalls Implementation Project (in lavoro/non completato)
 
 Implementazione modulare completa di tutte le system call POSIX con supporto per architetture 32 e 64 bit.
 
